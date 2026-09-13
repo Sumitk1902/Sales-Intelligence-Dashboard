@@ -1,120 +1,77 @@
 # 📊 Sales Intelligence Dashboard
 
-An interactive **Power BI Sales Intelligence Dashboard** built to analyze sales, profitability, customers, products, regional performance, and target achievement.
+An interactive **Power BI Sales Intelligence Dashboard** designed to transform raw sales data into clear, actionable business insights.
 
-The dashboard transforms raw sales data into an interactive business reporting solution with KPI tracking, visual analysis, filters, and page navigation.
-
----
-
-## 📸 Dashboard Preview
-
-### Executive Dashboard
-
-The executive page provides a high-level overview of overall sales and business performance.
-
-![Executive Dashboard](D1.jpeg)
+The dashboard provides a complete view of **sales performance, profitability, products, customers, regional performance, and target achievement** through interactive visuals, KPIs, filters, and page navigation.
 
 ---
 
-### Product Analysis
+## 🚀 Dashboard Overview
 
-Analyzes sales and profitability across categories and sub-categories.
+The project contains four interactive Power BI pages:
 
-![Products Dashboard](D2.jpeg)
-
----
-
-### Customer Analysis
-
-Provides insights into customer performance and geographical sales distribution.
-
-![Customers Dashboard](D3.jpeg)
+| Page | Purpose |
+|------|---------|
+| 📈 Executive | Overall business performance and key KPIs |
+| 🛍️ Products | Product and category-level sales & profit analysis |
+| 👥 Customers | Customer performance and geographical sales analysis |
+| 🎯 Targets | Sales targets, achievement, and variance analysis |
 
 ---
 
-### Target Performance
+# 📸 Dashboard Preview
 
-Tracks actual sales against targets and highlights target achievement and sales variance.
+## 📈 Executive Dashboard
 
-![Targets Dashboard](D4.jpeg)
+Provides a high-level overview of business performance using key KPIs such as:
 
----
-
-## 🎯 Project Objective
-
-The objective of this project is to create an interactive sales analytics dashboard that helps users:
-
-- Monitor overall business performance
-- Track sales and profitability
-- Compare actual sales with targets
-- Analyze product and category performance
-- Identify top customers
-- Compare regional sales performance
-- Understand sales trends over time
-- Evaluate target achievement
-
----
-
-## 📊 Key KPIs
-
-The dashboard tracks:
-
-- **Total Sales**
-- **Total Profit**
-- **Profit Margin %**
-- **Sales Target**
-- **Sales Variance**
-- **Target Achievement %**
-- **Total Customers**
-- **Total Orders**
-- **Total Quantity**
-- **Average Order Value**
-
----
-
-## 📑 Dashboard Pages
-
-### 1. Executive
-
-Provides a management-level overview of the business.
-
-**Includes:**
 - Total Sales
 - Sales Variance
-- Target Achievement
+- Target Achievement %
 - Total Profit
-- Profit Margin
+- Profit Margin %
 - Sales by Category
 - Sales by State
-- Sales vs Target by Month
+- Monthly Sales & Target Performance
 
-### 2. Products
+![Executive Dashboard](ss/sales%20dashboard%20ss1.jpeg)
 
-Focuses on product and category performance.
+---
 
-**Includes:**
+## 🛍️ Products Dashboard
+
+Analyzes product performance across categories and sub-categories.
+
+### Key Analysis
 - Sales by Category
 - Profit by Category
 - Sales by Sub-Category
-- Category comparison
-- Sub-category analysis
+- Category and Sub-Category filtering
 
-### 3. Customers
+![Products Dashboard](ss/sales%20dashboard%20ss2.jpeg)
 
-Focuses on customer and geographical performance.
+---
 
-**Includes:**
+## 👥 Customers Dashboard
+
+Focuses on customer and geographical sales performance.
+
+### Key Analysis
 - Total Customers
 - Top 10 Customers by Sales
 - Sales by State
 - Sales by City
 - State-level filtering
 
-### 4. Targets
+![Customers Dashboard](ss/sales%20dashboard%20ss3.jpeg)
 
-Focuses on target monitoring and performance.
+---
 
-**Includes:**
+## 🎯 Targets Dashboard
+
+Tracks how actual sales compare against business targets.
+
+### Key Analysis
 - Total Sales
 - Sales Target
 - Sales Variance
@@ -122,82 +79,79 @@ Focuses on target monitoring and performance.
 - Monthly Sales vs Target
 - Target Achievement Gauge
 
----
-
-## 🔍 Interactive Features
-
-- Page navigation
-- Month/Year filtering
-- Category filtering
-- State filtering
-- Cross-filtering between visuals
-- KPI cards
-- Interactive charts
-- Target performance analysis
-- Drill-through functionality
+![Targets Dashboard](ss/sales%20dashboard%20ss4.jpeg)
 
 ---
 
-## 🛠️ Tools & Technologies
+# 🧩 Key Features
 
-| Tool | Usage |
-|---|---|
-| **Power BI** | Dashboard development & visualization |
-| **Power Query** | Data transformation |
-| **DAX** | KPI and business calculations |
-| **Data Modeling** | Relationships between datasets |
-| **Power BI Visuals** | Interactive data analysis |
+### 📌 Interactive KPIs
+The dashboard tracks important business metrics including:
 
----
-
-## 🧮 Data Model
-
-The dashboard uses multiple related tables for sales and target analysis, including:
-
-- Calendar
-- List of Orders
-- Order Details
-- Category
+- Total Sales
+- Total Profit
+- Profit Margin
 - Sales Target
+- Sales Variance
+- Target Achievement
+- Total Customers
 
-The data model enables analysis across:
+### 🎛️ Interactive Filters
 
-**Time → Products → Categories → Customers → Geography → Targets**
+Users can dynamically filter the analysis using:
 
----
+- Month / Year
+- Category
+- State
+- Sub-Category
 
-## 💡 Business Questions
+### 🧭 Page Navigation
 
-The dashboard helps answer questions such as:
+The dashboard includes navigation between:
 
-- What are the current total sales and profit?
-- Are actual sales meeting the target?
-- What is the current target achievement percentage?
-- Which category generates the highest sales?
-- Which category generates the highest profit?
-- Which sub-categories perform best?
-- Who are the top customers by sales?
-- Which states generate the highest sales?
-- Which cities contribute the most revenue?
-- How does sales performance change over time?
-- What is the gap between actual sales and the target?
+**Executive → Products → Customers → Targets**
+
+This allows users to move between different areas of business analysis without leaving the report.
 
 ---
 
-## 📁 Repository Structure
+# 📊 Data Analysis
+
+The dashboard provides insights across multiple dimensions:
+
+- **Time:** Monthly and yearly sales trends
+- **Products:** Categories and sub-categories
+- **Customers:** Individual customer performance
+- **Geography:** State and city-level sales
+- **Targets:** Actual sales vs sales targets
+- **Profitability:** Profit and profit margin analysis
+
+---
+
+# 🛠️ Tools & Technologies
+
+- **Power BI Desktop**
+- **Power Query**
+- **DAX**
+- **Data Modeling**
+- **Interactive Data Visualization**
+
+---
+
+# 📁 Repository Structure
 
 ```text
 Sales-Intelligence-Dashboard/
 │
-├── Dashboard SS/
-│   ├── D1.jpeg
-│   ├── D2.jpeg
-│   ├── D3.jpeg
-│   └── D4.jpeg
+├── 📂 Data Files/
+│   └── Source datasets
 │
-├── Data Files/
-│   └── Source Data
+├── 📂 ss/
+│   ├── sales dashboard ss1.jpeg
+│   ├── sales dashboard ss2.jpeg
+│   ├── sales dashboard ss3.jpeg
+│   └── sales dashboard ss4.jpeg
 │
-├── Sales Intelligence Dashboard.pbix
+├── 📊 dashboard apex.pbix
 │
-└── README.md
+└── 📄 README.md
