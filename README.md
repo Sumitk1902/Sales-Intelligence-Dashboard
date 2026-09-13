@@ -19,68 +19,19 @@ The project contains four interactive Power BI pages:
 
 ---
 
-# 📸 Dashboard Preview
+## 📸 Dashboard Preview
 
-## 📈 Executive Dashboard
+### 1. Executive Dashboard
+![Executive Dashboard](ss/D1.jpeg)
 
-Provides a high-level overview of business performance using key KPIs such as:
+### 2. Products Dashboard
+![Products Dashboard](ss/D2.jpeg)
 
-- Total Sales
-- Sales Variance
-- Target Achievement %
-- Total Profit
-- Profit Margin %
-- Sales by Category
-- Sales by State
-- Monthly Sales & Target Performance
+### 3. Customers Dashboard
+![Customers Dashboard](ss/D3.jpeg)
 
-![Executive Dashboard](ss/sales%20dashboard%20ss1.jpeg)
-
----
-
-## 🛍️ Products Dashboard
-
-Analyzes product performance across categories and sub-categories.
-
-### Key Analysis
-- Sales by Category
-- Profit by Category
-- Sales by Sub-Category
-- Category and Sub-Category filtering
-
-![Products Dashboard](ss/sales%20dashboard%20ss2.jpeg)
-
----
-
-## 👥 Customers Dashboard
-
-Focuses on customer and geographical sales performance.
-
-### Key Analysis
-- Total Customers
-- Top 10 Customers by Sales
-- Sales by State
-- Sales by City
-- State-level filtering
-
-![Customers Dashboard](ss/sales%20dashboard%20ss3.jpeg)
-
----
-
-## 🎯 Targets Dashboard
-
-Tracks how actual sales compare against business targets.
-
-### Key Analysis
-- Total Sales
-- Sales Target
-- Sales Variance
-- Target Achievement %
-- Monthly Sales vs Target
-- Target Achievement Gauge
-
-![Targets Dashboard](ss/sales%20dashboard%20ss4.jpeg)
-
+### 4. Targets Dashboard
+![Targets Dashboard](ss/D4.jpeg)
 ---
 
 # 🧩 Key Features
